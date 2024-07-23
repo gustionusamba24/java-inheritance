@@ -6,6 +6,7 @@ public class BankAccount {
     private String customerPhone;
 
     public BankAccount() {
+        this("56789", 2.50, "Default name", "Default email", "Default phone");
         System.out.println("Empty constructor initialized");
     }
 
@@ -16,6 +17,10 @@ public class BankAccount {
         this.customerName = customerName;
         customerEmail = email;
         customerPhone = phone;
+    }
+
+    public BankAccount(String customerName, String customerEmail, String customerPhone) {
+        this("9999", 100.55, customerName, customerEmail, customerPhone);
     }
 
     public double getAccountBalance() {
