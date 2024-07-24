@@ -16,7 +16,7 @@ public class Main {
         johnBankAccount.withdrawFunds(45.55);
         johnBankAccount.withdrawFunds(54.46);
 
-        BankAccount sambaAccount = new BankAccount("Samba", "samba@gmail.com", "12345");
-        System.out.println("Account No: " + sambaAccount.getCustomerName() + " Account number : " + sambaAccount.getAccountNumber());
+        BankAccount sambaBankAccount = new BankAccount("Samba", "samba@gmail.com", "12345");
+        System.out.println("Account No: " + sambaBankAccount.getCustomerName() + " Account number : " + sambaBankAccount.getAccountNumber());
     }
 }
